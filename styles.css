@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: large;
+}
+
+nav {
+  background-color: #27374D;
+  color: white;
+  padding: 1% 5%;
+  align-items: center;
+  text-align: center;
+}
+
+nav .array-inputs {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  place-content: center;
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_generate {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 4% 0% 0% 0%;
+  padding-left: 20%;
+}
+
+nav .array-inputs #a_generate:hover {
+  cursor: pointer;
+}
+
+nav .header_right .nav-heading {
+  font-size: xxx-large;
+  padding: 3% 0%;
+}
+nav .header_right .algos button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 5% 0%;
+  font-size: x-large;
+}
+
+nav .header_right .algos button:hover {
+  background-color: #27374D;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: white;
+  color: green;
+  font-weight: bold;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: #27374D;
+  cursor: pointer;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+section .Complexity_Containers {
+  margin-top: 5%;
+}
+
+section .Complexity_Containers .Pair_Definitions {
+  margin-top: 5%;
+}
+
+section .Complexity_Containers .Pair_Definitions p {
+  display: flex;
+}
+
+section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+  font-size: medium;
+  text-transform: none;
+}
+
+section #Info_Cont {
+  align-items: center;
+  padding: 20% 10%;
+}
+
+section #Info_Cont h3 {
+  text-decoration: underline;
+  text-shadow: 8px;
+}
+
+section #array_container {
+  height: 65vh;
+  width: 150vh;
+  display: flex;
+  align-items: end;
+  border: 3px black solid;
+  margin-top: 30px;
+  padding: 2px 2px 2px 2px;
+}
+.hide {
+  display: none;
+}
+#btn {
+  padding: 2px 5px;
+  margin: 4px 10px;
+}
+#btn:hover {
+  background-color: #526D82;
+  border-radius: 5px;
+}
+.btn1 {
+  margin-bottom: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 52px 5px 52px;
+}
+.btn1:hover {
+  background-color: #9DB2BF;
+}
+.footer{
+  text-align: center;
+  font-size: small;
+  padding: 5px 10px;
+}

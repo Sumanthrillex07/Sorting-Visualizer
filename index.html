@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <!-- Here goes the header -->
+    <header>
+      <nav>
+        <div class="header_right">
+          <p class="nav-heading">SORTING VISUALIZER</p>
+          <div class="algos">
+            <button id="btn">Bubble</button>
+            <button id="btn">Selection</button>
+            <button id="btn">Insertion</button>
+            <button id="btn">Merge</button>
+            <button id="btn">Quick</button>
+            <button id="btn">Heap</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Here goes the info section -->
+    <section>
+      <div id="Info_Cont">
+        <button
+          id="a_generate"
+          class="btn1"
+        >
+          New Array
+        </button>
+        <div class="array-inputs">
+          <p>Size of the array:</p>
+          <input
+            id="a_size"
+            type="range"
+            min="20"
+            max="150"
+            step="1"
+            value="80"
+          />
+          <p>Speed of the algorithm:</p>
+          <input id="a_speed" type="range" min="1" max="5" step="1" value="4" />
+        </div>
+        <h3>TIME COMPLEXITY</h3>
+
+        <div class="Complexity_Containers" id="Time_Complexity_Types_Container">
+          <div class="Pair_Definitions">
+            <p class="Sub_Heading">Worst case:</p>
+            <p id="Time_Worst"></p>
+          </div>
+          <br />
+          <div class="Pair_Definitions">
+            <p class="Sub_Heading">Average case:</p>
+            <p id="Time_Average"></p>
+          </div>
+          <br />
+          <div class="Pair_Definitions">
+            <p class="Sub_Heading">Best case:</p>
+            <p id="Time_Best"></p>
+          </div>
+          <br />
+          <h3>SPACE COMPLEXITY</h3>
+
+          <div
+            class="Complexity_Containers"
+            id="Space_Complexity_Types_Container"
+          >
+            <div class="Pair_Definitions">
+              <p id="Space_Worst"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="array_container"></div>
+    </section>
+
+    <footer class="footer">Copyright@2003 Sumanth</footer>
+
+    <script src="main.js"></script>
+    <!--This should be at the end of body and should be loaded before sorts.js-->
+    <script src="Visualizations.js"></script>
+    <!--This should be loaded after main.js-->
+
+    <script src="./Sortings/Bubble_sort.js"></script>
+    <script src="./Sortings/Selection_sort.js"></script>
+    <script src="./Sortings/Insertion_sort.js"></script>
+    <script src="./Sortings/Merge_sort.js"></script>
+    <script src="./Sortings/Quick_sort.js"></script>
+    <script src="./Sortings/Heap_sort.js"></script>
+  </body>
+</html>
