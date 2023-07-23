@@ -14,5 +14,5 @@
 * It also provides with the time and space complexities of the sorting algorithms.
 ## Usage
 To use the visualizer, simply select the size of the array and the speed and click on the sorting algorithm. The visualizer will then animate the sorting process.
-#### Usage of DSA sorting algorithms
+## Usage of DSA sorting algorithms :😊:
 The visualizer uses a variety of data structures and algorithms to visualize the sorting process. For example, it uses an array to store the numbers to be sorted. The visualizer also uses a variety of sorting algorithms, including bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort.
